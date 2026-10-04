@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy — Loan Manager Pro</title>
+    <style>
+        :root {
+            --primary: #1E3A8A;
+            --accent: #D97706;
+            --bg: #F8FAFC;
+            --card-bg: #FFFFFF;
+            --text: #0F172A;
+            --muted: #64748B;
+            --border: #E2E8F0;
+        }
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --primary: #38BDF8;
+                --accent: #F59E0B;
+                --bg: #0F172A;
+                --card-bg: #1E293B;
+                --text: #F8FAFC;
+                --muted: #94A3B8;
+                --border: #334155;
+            }
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--bg);
+            color: var(--text);
+            margin: 0;
+            padding: 20px;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 800px;
+            margin: 40px auto;
+            background: var(--card-bg);
+            padding: 36px;
+            border-radius: 16px;
+            border: 1px solid var(--border);
+            box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+        }
+        .header {
+            text-align: center;
+            border-bottom: 2px solid var(--border);
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+        }
+        .header h1 {
+            color: var(--primary);
+            margin: 0 0 8px 0;
+            font-size: 28px;
+        }
+        .header p {
+            color: var(--muted);
+            margin: 0;
+            font-size: 14px;
+            font-weight: 600;
+        }
+        .badge {
+            display: inline-block;
+            background: rgba(16, 185, 129, 0.15);
+            color: #10B981;
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-size: 12px;
+            font-weight: 700;
+            margin-top: 10px;
+        }
+        h2 {
+            color: var(--primary);
+            font-size: 20px;
+            margin-top: 28px;
+            border-left: 4px solid var(--accent);
+            padding-left: 10px;
+        }
+        p, li {
+            font-size: 15px;
+            color: var(--text);
+        }
+        ul {
+            padding-left: 20px;
+        }
+        li {
+            margin-bottom: 8px;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid var(--border);
+            color: var(--muted);
+            font-size: 13px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="header">
+        <h1>📱 Loan Manager Pro</h1>
+        <p>OFFICIAL PRIVACY POLICY & SECURITY DISCLOSURE</p>
+        <div class="badge">🔒 100% OFFLINE & AES-256 ENCRYPTED</div>
+    </div>
+
+    <p><strong>Effective Date:</strong> February 13, 2026</p>
+    <p><strong>Loan Manager Pro</strong> ("we", "our", or "us") is dedicated to providing a completely private, secure, and transparent personal financial tracking application. This Privacy Policy details our strict zero-data collection commitment.</p>
+
+    <h2>1. 🌐 Zero Remote Server & Zero Data Collection</h2>
+    <p>Loan Manager Pro is built as a <strong>100% offline application</strong>. We do not host remote servers, maintain databases, or collect any personal or financial data.</p>
+    <ul>
+        <li><strong>No Account Registration:</strong> You do not need an email, phone number, or password to use the app.</li>
+        <li><strong>No Cloud Transmissions:</strong> All borrower names, lending balances, interest rates, and loan histories remain strictly stored on your physical device.</li>
+        <li><strong>No Analytics or Tracking SDKs:</strong> We do not integrate third-party analytics, ad trackers, or data miners.</li>
+    </ul>
+
+    <h2>2. 🔐 Hardware-Backed AES-256 Encryption</h2>
+    <p>Your financial information is encrypted directly on your device using <code>AndroidKeyStore</code> hardware-backed cryptographic keys (AES-256 GCM encryption). Even if an unauthorized party gains access to your phone's file system, the database file (<code>encrypted_loans_v2.bin</code>) cannot be decrypted without your device's unique hardware key.</p>
+
+    <h2>3. 🔑 App Passcode & Biometric Phone Lock</h2>
+    <p>Loan Manager Pro offers optional biometrics (Fingerprint / Face Unlock) or a custom 4-digit App Passcode. Biometric authentication is handled locally by Android's native <code>BiometricPrompt</code> API. Biometric data is never accessed or stored by our app.</p>
+
+    <h2>4. 📄 PDF Statements & Local Backups</h2>
+    <p>All exported PDF statements and JSON database backup files are generated locally on your device. You maintain 100% control over where and with whom you share these files.</p>
+
+    <h2>5. 🗑️ Data Erasure & Uninstallation</h2>
+    <p>Since all data resides on your physical device, uninstalling the application or clearing the application data in Android System Settings permanently and unrecoverably erases all saved loan records and settings.</p>
+
+    <h2>6. 📞 Contact Us</h2>
+    <p>If you have any questions or feedback regarding this Privacy Policy or app security, please reach out through our official GitHub repository page.</p>
+
+    <div class="footer">
+        &copy; 2026 Loan Manager Pro. All Rights Reserved.
+    </div>
+</div>
+
+</body>
+</html>
